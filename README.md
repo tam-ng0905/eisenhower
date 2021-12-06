@@ -1,19 +1,15 @@
-# Focus
+# Eisenhower
 
 Simple CLI project manager, for all those package ideas that pop into your head at 2 AM.
 
 ![Focus screenshot](screenshot.png)
 
-## Install
 
-```
-$ sudo npm install -g pacocoursey/focus
-```
 
 ## Usage
 
 ```
-    🔎  Focus
+    🔎  node src/index.js 
 
     Usage:
 
