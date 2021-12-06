@@ -1,0 +1,20 @@
+{
+  "name": "eisenhower",
+  "version": "0.0.6",
+  "description": "A simple tool to keep track your your todo",
+  "main": "./src/index.js",
+  "bin": {
+    "focus": "./src/index.js"
+  },
+  "repository": "https://github.com/tam-ng0905/eisenhower",
+  "author": "Tam Nguyen <hi@tamnguyen.io> (tamnguyen.io)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cli-table3": "^0.5.0",
+    "fs-extra": "^6.0.1",
+    "prompts": "^0.1.10",
+    "user-home": "^2.0.0"
+  },
+  "devDependencies": {}
+}
