@@ -1,8 +1,8 @@
 # Focus
 
-###A simple task tracking manager that helps you focus on what matter.
+### A simple task tracking manager that helps you focus on what matter.
 
-####This is an inspiration from the Eisenhower Matrix.
+#### This is an inspiration from the Eisenhower Matrix.
 
 ![Focus screenshot](screenshot.png)
 
