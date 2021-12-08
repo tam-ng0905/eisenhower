@@ -1,10 +1,10 @@
-# Focus
+# Eisenhower
 
 ### A simple task tracking manager that helps you focus on what matter.
 
 #### This is an inspiration from the Eisenhower Matrix.
 
-![Focus screenshot](screenshot.png)
+![Eisenhower screenshot](screenshot.png)
 
 
 ## Usage
@@ -14,7 +14,7 @@
 
     Usage:
 
-      node src/index.js  [<flags>] <command> [<args> ...]
+      eisenhower  [<flags>] <command> [<args> ...]
 
     Flags:
 
@@ -35,16 +35,16 @@
     Examples:
 
       Create a new project.
-      $ node src/index.js new
+      $ eisenhower new
 
       View the 'laundry' project.
-      $ node src/index.js view laundry
+      $ eisenhower view laundry
 
       Delete the 'laundry' project.
-      $ node src/index.js delete laundry
+      $ eisenhower delete laundry
 
       List all projects.
-      $ node src/index.js
+      $ eisenhower
         or
-      $ node src/index.js list
+      $ eisenhower list
 ```
