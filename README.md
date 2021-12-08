@@ -5,7 +5,7 @@
 #### This is an inspiration from the Eisenhower Matrix.
 
 ![Eisenhower screenshot](screenshot.png)
-
+[Source code](https://github.com/tam-ng0905/eisenhower)
 
 ## Usage
 
@@ -14,7 +14,7 @@
 
     Usage:
 
-      eisenhower  [<flags>] <command> [<args> ...]
+      node src/index.js  [<flags>] <command> [<args> ...]
 
     Flags:
 
@@ -35,16 +35,16 @@
     Examples:
 
       Create a new project.
-      $ eisenhower new
+      $ node src/index.js new
 
       View the 'laundry' project.
-      $ eisenhower view laundry
+      $ node src/index.js view laundry
 
       Delete the 'laundry' project.
-      $ eisenhower delete laundry
+      $ node src/index.js delete laundry
 
       List all projects.
-      $ eisenhower
+      $ node src/index.js
         or
-      $ eisenhower list
+      $ node src/index.js list
 ```
