@@ -1,6 +1,6 @@
 {
-  "name": "eisenhower",
-  "version": "0.0.6",
+  "name": "@tam-ng0905/eisenhower",
+  "version": "1.0.0",
   "description": "A simple tool to keep track your your todo",
   "main": "./src/index.js",
   "bin": {
