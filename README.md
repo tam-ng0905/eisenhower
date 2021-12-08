@@ -1,23 +1,20 @@
 # Focus
 
-Simple CLI project manager, for all those package ideas that pop into your head at 2 AM.
+###A simple task tracking manager that helps you focus on what matter.
+
+####This is an inspiration from the Eisenhower Matrix.
 
 ![Focus screenshot](screenshot.png)
 
-## Install
-
-```
-$ sudo npm install -g pacocoursey/focus
-```
 
 ## Usage
 
 ```
-    🔎  Focus
+    🔎  eisenhower 
 
     Usage:
 
-      focus [<flags>] <command> [<args> ...]
+      node src/index.js  [<flags>] <command> [<args> ...]
 
     Flags:
 
@@ -38,16 +35,16 @@ $ sudo npm install -g pacocoursey/focus
     Examples:
 
       Create a new project.
-      $ focus new
+      $ node src/index.js new
 
       View the 'laundry' project.
-      $ focus view laundry
+      $ node src/index.js view laundry
 
       Delete the 'laundry' project.
-      $ focus delete laundry
+      $ node src/index.js delete laundry
 
       List all projects.
-      $ focus
+      $ node src/index.js
         or
-      $ focus list
+      $ node src/index.js list
 ```

@@ -96,7 +96,7 @@ async function list() {
   try {
     const contents = await fs.readJSON(file);
     if (!contents.projects || contents.projects.length === 0) {
-      log('\n  No projects. Start one with `focus new`.\n');
+      log('\n  No projects. Start one with `node src/index.js`.\n');
     } else {
       print(contents);
     }
